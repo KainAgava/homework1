@@ -10,19 +10,22 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string necropolis = "Некрополис";
-            string greetingOfTraveler = "Доброе пожаловать в "+ necropolis +" путник ";
+            string townName = "Некрополис";
+            string greetingOfTraveler = "Доброе пожаловать в " + townName + " путник ";
             char cross = '+';
-            int money;
-            int body;
-            int bodyPrice = 10;
-            int goldBank = 100;
-            int boneWarehouse;
-            bool boneStorageCapacity;
-            bool abilityToPay;
+            byte money = 255;
+            short body = 1000;
+            long bodyPrice = 10;
+            float speedUnit = 125.5f;
+            double distanceTarget = 1555.5d;
+            ushort loyaltyPopulation = 0;
+            decimal nustepsСompleted = 14;
+
+            bool isHappy = false;
 
 
-         
+
+
         }
     }
 }
